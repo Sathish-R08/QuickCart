@@ -5,13 +5,13 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer>
-      <div className="flex flex-col md:flex-row items-start justify-center px-6 md:px-16 lg:px-32 gap-10 py-14 border-b border-gray-500/30 text-gray-500">
+      <div className="flex flex-col md:flex-row items-start justify-center px-6 md:px-16 lg:px-32 gap-5 py-14 border-b border-gray-500/30 text-gray-500">
         <div className="w-4/5">
           <Image className="w-28 md:w-32" src={assets.logo} alt="logo" />
           <p className="mt-6 text-sm">
-          QuickCart is an innovative e-commerce platform designed to deliver a seamless online shopping experience. 
+          TrendCart is an innovative e-commerce platform designed to deliver a seamless online shopping experience. 
           With a modern interface and a curated list of products across categories like electronics, fashion, 
-          home essentials, and more, QuickCart helps customers discover the best deals effortlessly.
+          home essentials, and more, TrendCart helps customers discover the best deals effortlessly.
           </p>
         </div>
 
@@ -40,7 +40,7 @@ const Footer = () => {
             <h2 className="font-medium text-gray-900 mb-5">Get in touch</h2>
             <div className="text-sm space-y-2">
               <p>+1-234-567-890</p>
-              <p>contact@quickstart.com</p>
+              <p>contact@TrendCart.com</p>
             </div>
           </div>
         </div>
