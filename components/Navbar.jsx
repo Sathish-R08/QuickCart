@@ -12,7 +12,7 @@ const Navbar = () => {
   const { openSignIn } = useClerk()
 
   return (
-    <nav className="flex items-center justify-between px-6 md:px-30 lg:px-50 py-3 border-b border-gray-300 text-gray-700">
+    <nav className="flex items-center justify-between px-6 md:px-18 lg:px-36 py-3 border-b border-gray-300 text-gray-700">
       <Image
         className="cursor-pointer w-40 md:w-42"
         width={160}
