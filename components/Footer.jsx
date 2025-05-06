@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="flex flex-col md:flex-row items-start justify-center px-6 md:px-16 lg:px-32 gap-5 py-14 border-b border-gray-500/30 text-gray-500">
-        <div className="w-2/5">
+        <div className="w-3/5">
           <Image className="w-28 md:w-32" src={assets.logo} alt="logo" />
           <p className="mt-6 text-sm">
           TrendCart is an innovative e-commerce platform designed to deliver a seamless online shopping experience. 
