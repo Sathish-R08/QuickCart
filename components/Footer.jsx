@@ -21,7 +21,7 @@ const Footer = () => {
             <ul className="text-sm space-y-2">
               <li>
                 <a className="hover:underline transition" href="#">Home</a>
-              </li>
+              </li>wwwew
               <li>
                 <a className="hover:underline transition" href="#">About us</a>
               </li>
@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="py-4 text-center text-xs md:text-sm">
-        Copyright 2025 © GreatStack.dev All Right Reserved.
+        Copyright 2025 © Trendcart.com All Right Reserved.
       </p>
     </footer>
   );
